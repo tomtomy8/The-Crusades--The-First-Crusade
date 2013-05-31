@@ -16,13 +16,13 @@
 		9D52AC2F175885C6009AC080 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D52AC2E175885C6009AC080 /* Default.png */; };
 		9D52AC31175885C6009AC080 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D52AC30175885C6009AC080 /* Default@2x.png */; };
 		9D52AC33175885C6009AC080 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D52AC32175885C6009AC080 /* Default-568h@2x.png */; };
-		9D52AC36175885C6009AC080 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D52AC34175885C6009AC080 /* MainStoryboard.storyboard */; };
 		9D52AC39175885C6009AC080 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D52AC38175885C6009AC080 /* ViewController.m */; };
 		9D52AC41175885C6009AC080 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D52AC40175885C6009AC080 /* SenTestingKit.framework */; };
 		9D52AC42175885C6009AC080 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D52AC1C175885C5009AC080 /* UIKit.framework */; };
 		9D52AC43175885C6009AC080 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D52AC1E175885C5009AC080 /* Foundation.framework */; };
 		9D52AC4B175885C6009AC080 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D52AC49175885C6009AC080 /* InfoPlist.strings */; };
 		9D52AC4E175885C6009AC080 /* The_Crusades__The_First_CrusadeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D52AC4D175885C6009AC080 /* The_Crusades__The_First_CrusadeTests.m */; };
+		9D52AC5817588644009AC080 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D52AC5717588644009AC080 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,6 @@
 		9D52AC2E175885C6009AC080 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		9D52AC30175885C6009AC080 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		9D52AC32175885C6009AC080 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		9D52AC35175885C6009AC080 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		9D52AC37175885C6009AC080 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9D52AC38175885C6009AC080 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9D52AC3F175885C6009AC080 /* The Crusades: The First CrusadeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Crusades: The First CrusadeTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +57,7 @@
 		9D52AC4A175885C6009AC080 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9D52AC4C175885C6009AC080 /* The_Crusades__The_First_CrusadeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = The_Crusades__The_First_CrusadeTests.h; sourceTree = "<group>"; };
 		9D52AC4D175885C6009AC080 /* The_Crusades__The_First_CrusadeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_Crusades__The_First_CrusadeTests.m; sourceTree = "<group>"; };
+		9D52AC5717588644009AC080 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +117,9 @@
 		9D52AC22175885C5009AC080 /* The Crusades: The First Crusade */ = {
 			isa = PBXGroup;
 			children = (
+				9D52AC5717588644009AC080 /* Storyboard.storyboard */,
 				9D52AC2B175885C6009AC080 /* AppDelegate.h */,
 				9D52AC2C175885C6009AC080 /* AppDelegate.m */,
-				9D52AC34175885C6009AC080 /* MainStoryboard.storyboard */,
 				9D52AC37175885C6009AC080 /* ViewController.h */,
 				9D52AC38175885C6009AC080 /* ViewController.m */,
 				9D52AC23175885C6009AC080 /* Supporting Files */,
@@ -235,7 +235,7 @@
 				9D52AC2F175885C6009AC080 /* Default.png in Resources */,
 				9D52AC31175885C6009AC080 /* Default@2x.png in Resources */,
 				9D52AC33175885C6009AC080 /* Default-568h@2x.png in Resources */,
-				9D52AC36175885C6009AC080 /* MainStoryboard.storyboard in Resources */,
+				9D52AC5817588644009AC080 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +301,6 @@
 				9D52AC26175885C6009AC080 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		9D52AC34175885C6009AC080 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D52AC35175885C6009AC080 /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 		9D52AC49175885C6009AC080 /* InfoPlist.strings */ = {
